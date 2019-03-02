@@ -5,7 +5,7 @@ fetch(url)
   })
   .then(test => {
     let booksOutput = `
-      <div class="image-banner my-5" style="height:300px; padding-top:4rem">
+      <div class="image-banner my-4" style="height:270px; padding-top:4rem">
         <div class="col-md-12 text-center px-0">
           <h1 class="display-4 font-italic text-white">${test.data.author}</h1>
           <p class="lead my-3">Birthday: ${test.data.birthday}</p>
@@ -23,7 +23,7 @@ fetch(url)
       }
       booksOutput += `
       <div class="col-md-6">
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-lg h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-warning">Kids</strong>
             <h4 class="mb-0 block-with-title">${book.title}</h4>
