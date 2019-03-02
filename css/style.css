@@ -21,7 +21,7 @@ h4 {
   background-size: cover;
 }
 
-.block-with-title {
+.hide-text-title {
   overflow: hidden;
   position: relative;
   max-height: 5em;
@@ -30,7 +30,7 @@ h4 {
   padding-right: 1em;
 }
 
-.block-with-text {
+.hide-text-summary {
   overflow: hidden;
   position: relative;
   line-height: 1.2em;
@@ -40,13 +40,13 @@ h4 {
   padding-right: 1em;
 }
 
-.block-with-text:before {
+.hide-text-summary:before {
   content: "...";
   position: absolute;
   right: 0;
   bottom: 0;
 }
-.block-with-text:after {
+.hide-text-summary:after {
   content: "";
   position: absolute;
   right: 0;
