@@ -7,7 +7,9 @@ fetch(url)
     let booksOutput = `
       <div class="image-banner my-4" style="height:270px; padding-top:4rem">
         <div class="col-md-12 text-center px-0">
-          <h1 class="display-4 font-italic text-white">${dataApi.data.author}</h1>
+          <h1 class="display-4 font-italic text-white">${
+            dataApi.data.author
+          }</h1>
           <p class="lead my-3">Birthday: ${dataApi.data.birthday}</p>
           <p class="lead my-3">Birthday: ${dataApi.data.birthPlace}</p>
         </div>
@@ -28,7 +30,7 @@ fetch(url)
             <div class="mb-3 mt-1 text-muted">Published: ${
               book.PublishDate
             }</div>
-            <p class="hide-text-summary card-text mb-auto">This is a wider card with text below as a natural lead-in to additional content.text below as a natural lead-in to additional 
+            <p class="hide-text-summary card-text mb-auto">The BFG is no ordinary bone-crunching giant. He is far too nice and jumbly. It's lucky for Sophie that he is. Had she been carried off in the middle of the night by the Bloodbottler, or any of the other giants—rather than the BFG—she would have soon become breakfast. 
             </p>
 
             <a href="${
