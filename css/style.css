@@ -1,16 +1,20 @@
+/* Gives enough room for the title on large screens */
 h4 {
   height: 3rem;
 }
+/* Gives enough room for the title on medium screens */
 @media (min-width: 992px) {
   h4 {
     height: 5rem;
   }
 }
+/* Gives enough room for the title on smaller screens */
 @media (max-width: 992px) {
   h4 {
     height: 3.5rem;
   }
 }
+/* Makes banner image dark and add image to index page */
 .image-banner {
   background-image: 
   linear-gradient(
@@ -21,6 +25,7 @@ h4 {
   background-size: cover;
 }
 
+/* Hides part of the title if it does not fit */
 .hide-text-title {
   overflow: hidden;
   position: relative;
@@ -30,6 +35,7 @@ h4 {
   padding-right: 1em;
 }
 
+/* Hides summary if it is taking up to much room */
 .hide-text-summary {
   overflow: hidden;
   position: relative;
